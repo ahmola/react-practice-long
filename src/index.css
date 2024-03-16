@@ -1,3 +1,4 @@
+/* card.jsx */
 .card{
   border: 2px solid black;
   border-radius: 10px;
@@ -27,3 +28,14 @@
   font-family: Arial, sans-serif;
   color: rgb(56, 56, 56);
 }
+
+/* button.jsx */
+
+/* .button{
+  background-color: greenyellow;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+} */
