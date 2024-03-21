@@ -1,6 +1,7 @@
 import Button from "./Button";
 import Card from "./Card"
 import Student from "./Student";
+import UserGreeting from "./UserGreeting";
 
 function App() {
   return(
@@ -8,8 +9,8 @@ function App() {
       <Card />
       <Button/>
       <Student name="Mario" age={30} isStudent={false}/>
-      <Student name="Louise" age={29} isStudent={true}/>
       <Student />
+      <UserGreeting isLoggedIn={true}/>
     </>
   );
 }
