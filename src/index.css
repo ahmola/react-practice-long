@@ -29,6 +29,17 @@
   color: rgb(56, 56, 56);
 }
 
+.student{
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.student p{
+  margin: 0;
+}
+
 /* button.jsx */
 
 /* .button{
