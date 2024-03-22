@@ -1,6 +1,8 @@
 import Button from "./Button";
 import Card from "./Card"
+import ClickEvent from "./ClickEvent";
 import List from "./List";
+import ProfilePicture from "./ProfilePicture";
 import Student from "./Student";
 import UserGreeting from "./UserGreeting";
 
@@ -29,6 +31,8 @@ function App() {
       <UserGreeting isLoggedIn={true}/>
       {fruits.length > 0 && <List items={fruits} category="Fruits" /> }
       {vegetables.length > 0 && <List items={vegetables} category="Vegetabels" /> }
+      <ClickEvent />
+      <ProfilePicture />
     </>
   );
 }
