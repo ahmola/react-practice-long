@@ -10,6 +10,7 @@ import Counter from "./Counter";
 import MyComponents from "./MyComponents";
 import ColorPicker from "./ColorPicker";
 import UpdateObjects from "./UpdateObjects";
+import UpdateArrays from "./UpdateArrays";
 
 function App() {
   const fruits = 
@@ -43,6 +44,7 @@ function App() {
       <MyComponents/>
       <ColorPicker />
       <UpdateObjects />
+      <UpdateArrays />
     </>
   );
 }
