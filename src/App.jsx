@@ -1,3 +1,4 @@
+import MyComponent from "./MyComponent";
 import Button from "./Button";
 import Card from "./Card"
 import ClickEvent from "./ClickEvent";
@@ -5,6 +6,8 @@ import List from "./List";
 import ProfilePicture from "./ProfilePicture";
 import Student from "./Student";
 import UserGreeting from "./UserGreeting";
+import Counter from "./Counter";
+import MyComponents from "./MyComponents";
 
 function App() {
   const fruits = 
@@ -32,7 +35,10 @@ function App() {
       {fruits.length > 0 && <List items={fruits} category="Fruits" /> }
       {vegetables.length > 0 && <List items={vegetables} category="Vegetabels" /> }
       <ClickEvent />
-      <ProfilePicture />
+      <ProfilePicture /> 
+      <MyComponent />
+      <Counter />
+      <MyComponents/>
     </>
   );
 }
