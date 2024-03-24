@@ -11,6 +11,7 @@ import MyComponents from "./MyComponents";
 import ColorPicker from "./ColorPicker";
 import UpdateObjects from "./UpdateObjects";
 import UpdateArrays from "./UpdateArrays";
+import UpdateArrayOfObject from "./UpdateArrayOfObject";
 
 function App() {
   const fruits = 
@@ -45,6 +46,7 @@ function App() {
       <ColorPicker />
       <UpdateObjects />
       <UpdateArrays />
+      <UpdateArrayOfObject />
     </>
   );
 }
