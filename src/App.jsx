@@ -8,6 +8,7 @@ import Student from "./Student";
 import UserGreeting from "./UserGreeting";
 import Counter from "./Counter";
 import MyComponents from "./MyComponents";
+import ColorPicker from "./ColorPicker";
 
 function App() {
   const fruits = 
@@ -39,6 +40,7 @@ function App() {
       <MyComponent />
       <Counter />
       <MyComponents/>
+      <ColorPicker />
     </>
   );
 }
